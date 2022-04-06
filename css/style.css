@@ -1,0 +1,14 @@
+#user-password{
+    color: rgba(255, 75, 75, 0.98);
+    text-align: center;
+    font-size: 8rem;
+    animation-name: password;
+    animation-duration: 6s;
+}
+@keyframes password {
+    0%   {color: rgba(255, 75, 75, 0.98);}
+    25%  {color: rgb(255, 181, 54);}
+    50%  {color: rgb(252, 222, 52);}
+    100% {color: rgba(255, 75, 75, 0.98;}
+      
+}
